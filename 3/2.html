@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+      .container{
+    display: grid;
+    grid-template-columns: 80px 200px 80px 80px ;
+    grid-template-rows: 40px 100px 40px 50px ;
+    grid-template-areas: 
+    "aa aa aa aa"
+    "cc bb bb dd"
+    "cc bb bb dd"
+    "ff ff ff ff";
+    
+      }
+      .Header{
+        border: 1px solid black;
+        background-color: goldenrod;
+        grid-area: aa;
+        display: flex;
+  justify-content: center; 
+  align-items: center;
+        
+
+      }
+      .left{
+        border: 1px solid black;
+        background-color: rgb(32, 218, 181);
+        grid-area: cc;
+ 
+        display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 10px;
+      }
+    .Content{
+      border: 1px solid black;
+        background-color: rgb(32, 94, 218);
+        grid-area: bb;
+        display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 10px;
+  width: 260px;
+  margin-left: 10px;
+    }
+      .right{
+        border: 1px solid  black;
+        background-color:  rgb(218, 32, 153);
+        grid-area: dd;
+        display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 10px;
+      }
+      .footer{
+        border: 1px solid black;
+        background-color: rgba(32, 218, 91, 0.875);
+        grid-area: ff;
+        display: flex;
+  justify-content: center; 
+  align-items: center;
+ margin-top: 10px;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Header">Header</div>
+        <div class="left">Leftsidebar</div>
+        <div class="Content">Content</div>
+        <div class="right">Rightsidebar</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>
