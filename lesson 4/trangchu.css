@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: block;
+}
+
+.hinhtron {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(45, 111, 168);
+    margin-right: 20px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: bisque;
+    align-items: center;
+    border: 0.5px solid sandybrown;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+}
+
+.right-header {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.right-header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-right: 10px;
+}
+
+
+article {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.left-article {
+    width: 20%;
+}
+
+.menu {
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+}
+
+.right-article {
+    width: 80%;
+}
+
+.top-right-article {
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    margin-left: 10px;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 8px;
+    background: n #fff;
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid black;
+}
+.box input {
+    width: 300px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.box a .fas {
+    color: #1daf;
+    font-size: 18px;
+}
+.item-top-right-article {
+    margin-right: 50px;
+}
+.products{
+    display: flex;
+    margin-top: 20px;
+}
+.product{
+    width: 25%;
+    box-sizing: border-box;
+}
+.pay{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.bottom-right-header{
+    margin-top: 20px;
+}
+
+footer {
+    background-color: bisque;
+    border: 0.5px solid sandybrown;
+    height: 90px;
+    width: 100%;
+}
+
+.bottom-footer {
+    display: flex;
+    align-items: center;
+
+}
+
+.vitri {
+    display: flex;
+}
+
+.telephone {
+    display: flex;
+}
