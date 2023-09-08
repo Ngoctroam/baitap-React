@@ -1,7 +1,7 @@
 let n = Number(prompt("Nhập n:"));
 let songuyen = true; 
 if (n <= 1) {
-    isPrime = false; 
+    songuyen = false; 
   } else {
   for (let i = 2; i <= Math.sqrt(n); i++) {
     if (n % i === 0) {
