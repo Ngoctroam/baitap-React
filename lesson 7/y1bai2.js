@@ -1,6 +1,4 @@
 const s = ["ab", "abc", "abcd", "abcde", "abcdef"];
-const text = "hi";
-
 let chuoiNhoNhat = s[0];
 
 for (let i = 1; i < s.length; i++) {
