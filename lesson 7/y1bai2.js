@@ -1,5 +1,5 @@
 const s = ["ab", "abc", "abcd", "abcde", "abcdef"];
-const text = "hi";
+
 
 let chuoiNhoNhat = s[0];
 
